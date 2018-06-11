@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Comments from './Comments'
+import BottomOptions from './BottomOptions'
 import FirstParagraphInfo from './FirstParagraphInfo'
 import FirstParagraphText from './FirstParagraphText'
 class Body extends Component{
@@ -8,7 +8,7 @@ class Body extends Component{
             <div className="large-8 medium-12 columns article">
             <FirstParagraphInfo />
             <FirstParagraphText />
-            <Comments />
+            <BottomOptions />
           </div>
         )
 
